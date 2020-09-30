@@ -19,7 +19,7 @@
 <script>
 function validateForm() {
   var y = document.forms["form"]["name"].value;
-	var letters = /^[A-Za-z]+$/;
+	var letters = /^[A-Za-z]+$/@#%()-_;
   if (y == null || y == "") {alert("Name must be filled out.");
   return false;
 }
